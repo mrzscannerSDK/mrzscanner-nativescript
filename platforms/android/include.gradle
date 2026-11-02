@@ -1,0 +1,19 @@
+// The NativeScript plugin's Android part: the MRZ scanner's Android SDK (mrzscanner-ar.aar, next to
+// this file, which NativeScript adds itself) and the libraries it uses
+// (Android/MRZScannerAR/mrzscanner-ar/build.gradle.kts).
+android {
+    defaultConfig {
+        minSdkVersion 24
+    }
+}
+
+dependencies {
+    def camerax = '1.4.0'
+    implementation "androidx.camera:camera-core:$camerax"
+    implementation "androidx.camera:camera-camera2:$camerax"
+    implementation "androidx.camera:camera-lifecycle:$camerax"
+    implementation "androidx.camera:camera-view:$camerax"
+    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.activity:activity-ktx:1.9.3'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:2.0.21'
+}

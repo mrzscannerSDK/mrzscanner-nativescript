@@ -1,0 +1,2 @@
+// The MRZ scanner's iOS SDK needs iOS 15.
+IPHONEOS_DEPLOYMENT_TARGET = 15.0

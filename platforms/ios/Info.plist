@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Merged into the app's Info.plist: the camera usage text (the app's own wins). -->
+	<key>NSCameraUsageDescription</key>
+	<string>Scans the MRZ of passports and ID cards.</string>
+</dict>
+</plist>

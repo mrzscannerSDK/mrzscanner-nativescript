@@ -1,0 +1,30 @@
+{
+  "name": "@mrzscanner/nativescript",
+  "version": "2.7.4",
+  "description": "MRZ scanner for NativeScript: reads passports, ID cards and visas with the camera (AR mode) or from photos, offline",
+  "homepage": "https://mrzscanner.com/",
+  "author": "Barkoder",
+  "license": "SEE LICENSE IN README.md",
+  "keywords": ["nativescript", "nativescript-plugin", "mrz", "passport", "id card", "ocr"],
+  "main": "index",
+  "typings": "index.d.ts",
+  "nativescript": {
+    "platforms": { "android": "9.0.0", "ios": "9.0.0" }
+  },
+  "files": [
+    "index.android.js",
+    "index.ios.js",
+    "index.d.ts",
+    "mrzscanner.js",
+    "mrzscanner.d.ts",
+    "platforms/",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@nativescript/core": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@nativescript/core": "^9.1.0",
+    "typescript": "~5.9.0"
+  }
+}

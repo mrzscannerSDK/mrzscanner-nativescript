@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+src/mrzscanner.ts
+index.android.js
+index.ios.js
+mrzscanner.js
+mrzscanner.d.ts
+/index.d.ts
+platforms/android/*.aar
+platforms/ios/*.xcframework/
+package-lock.json
